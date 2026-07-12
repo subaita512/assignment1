@@ -95,3 +95,43 @@ a{text-decoration: none;}
 .hero-btn:hover{color: beige;
     cursor:pointer;
 }
+/* speakers */
+.speakers{
+    padding: 80px;
+    text-align: center;
+}
+.speakers h2{
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+.speaker-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.speaker-card{
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    text-align: left;
+}
+.speaker-card img{
+    height: 300px;
+    object-fit: cover;
+}
+.speaker-card span{
+    display: inline-block;
+    margin: 15px;
+    padding: 5px 12px;
+    background: #eef2ff;
+    color: #2563eb;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.speaker-card h3{
+    margin: 0 15px 10px;
+}
+.speaker-card p{
+    margin: 0 15px 10px;
+}
