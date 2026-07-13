@@ -300,17 +300,20 @@ body{
 .hackathon{
     padding: 80px;
     text-align: center;
+    background: #f8fafc;
 }
 
 .hackathon h2{
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 15px;
+    color: #111827;
 }
 
 .hackathon p{
     max-width: 700px;
-    margin: auto;
-    margin-bottom: 40px;
+    margin:0 auto 50px;
+    color: #6b7280;
+    line-height: 1.7;
 }
 
 .hackathon-grid{
@@ -320,10 +323,24 @@ body{
 }
 
 .hack-card{
-    border: 1px solid #ddd;
-    padding: 30px;
-    border-radius: 12px;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0,.08);
+    transition: .3s;
 }
+.hack-card:hover{
+    transform: translateY(-8px);
+}
+.hack-card h3{
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+.hack-card p{
+    color: #6b7280;
+    margin: 0;
+}
+
 /* footer */
 footer{
     background: #111827;
